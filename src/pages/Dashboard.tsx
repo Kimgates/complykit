@@ -29,6 +29,8 @@ import {
   recentActivity,
 } from '@/data/policies';
 
+import DevHealthCheck from '@/components/dev/DevHealthCheck';
+
 const quickActions = [
   { label: 'Generate New Policy', icon: PlusCircle, color: 'text-leaf-600', href: '/get-started' },
   { label: 'Run Mock Audit', icon: ClipboardCheck, color: 'text-teal-600', href: '/mock-audit' },
